@@ -1,10 +1,15 @@
 import "./App.css"
+import Calendar from "./Calendar.js"
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <>
+      <h1>Better Hair</h1>
+      <body>Click the Login Button to Proceed</body>
+      <button>Login</button>
+      
+      <div>Calendar</div>
+    </>
   );
 }
 
